@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>invalid syntax</title>
+<style type="text/css">
+input:invalid{
+animation: shake 300ms;
+color: red;
+}
+@keyframe shake{
+25%{
+transform: translatex(4px);
+}
+50%{
+transform: translatex(-4px);
+}
+100%{
+transform: translatex(4px);
+}
+}
+</style>
+</head>
+<body>
+<h1>This is invalid input</h1>
+<input type="text" placeholder="search..." name="search" pattern="[a-z]*">
+</body>
+</html>

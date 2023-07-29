@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>animation</title>
+<style type="text/css">
+body{
+text-align: center;
+}
+.ani{
+width: 100px;
+height: 100px;
+background-color: red;
+position: relative;
+border: 2px solid purple;
+border-radius: 0px 40px;
+
+animation-name: magic;
+animation-delay: 2s;
+animation: magic 10s ;
+<!--animation-iteration-count: 3;  -->   <!--yeh toh yeh yeh toh yeh (infinite) -->
+animation-direction: reverse;
+
+}
+@keyframes magic{
+0%{
+background-color:red; left:0px; top:0px; 
+}
+25%{
+background-color:yellow; left:300px; top:0px; width: 200px; height: 200px;
+}
+50%{
+background-color:orange; left:600px; top:0px; width: 250px; height: 250px;
+}
+75%{
+background-color:blue; left:0px; top:200px; width: 400px; height: 400px;
+}
+100%{
+background-color:black; left:0px; top:0px; width: 100px; height: 100px;
+}
+}
+</style>
+</head>
+<body>
+<div class="ani">
+<h1>Hii!</h1>
+</div>
+</body>
+</html>

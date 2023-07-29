@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>navigation-bar</title>
+<style>
+body{
+background-color: black;
+}
+*{
+margin: 0;
+padding: 0;
+}
+#menu ul{
+list-style: none;
+}
+#menu ul li{
+background-color: black;
+width: 220px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+float: left;
+margin: 0px;
+position: relative;
+display: block;
+}
+#menu ul li a{
+text-decoration: none;
+color: white;
+}
+#menu ul li:hover{
+background-color: green;
+}
+#menu ul ul{
+display: none;
+}
+#menu ul li:hover>
+ul{
+display: block;
+}
+</style>
+</head>
+<body>
+<div id="menu">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">CONTACT</a>
+<ul>
+<li><a href="#">WHATAPP</a></li>
+<li><a href="#">INSTAGRAM</a></li>
+<li><a href="#">FACEBOOK</a></li>
+</ul>
+</li>
+<li><a href="#">MORE</a></li>
+</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
