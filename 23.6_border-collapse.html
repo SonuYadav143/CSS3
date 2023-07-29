@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>border-collapse</title>
+<style type="text/css">
+table, th, td{
+border: 2px solid red;
+}
+table{
+width: 1000px;
+border-collapse: separate;
+border-spacing: 45px; <!-- 45px 2px;-->
+}
+h1{
+text-align: center;
+color: pink;
+background-color: yellow;
+width:80%;
+}
+</style>
+</head>
+<body>
+<h1>this is a border table collapse and septrate</h1>
+<table>
+<tr>
+<th>firstname</th>
+<th>lastname</th>
+</tr>
+<tr>
+<td>suraj</td>
+<td>jha</td>
+</tr>
+</table>
+<h2>if you use border-colllapse: collapse; then you will get a single line in your border table</h2>
+<h2>and using border-collapse: separate; then you will get a border in spacing okay</h2>
+</body>
+</html>

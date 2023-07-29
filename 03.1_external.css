@@ -1,0 +1,35 @@
+.professor {
+color: solid red;
+gackground-color: lightgreen;
+text-align: center;
+border: 5px solid blue;
+padding: 20px;
+}
+.p {
+color: gray;
+background-color: pink;
+}
+h1{
+margin-left:20px;
+color: yellow;
+}
+body{
+background-color: cornsilk;
+}
+.professor:hover{
+color: white;
+background-color: black;
+}
+h1:hover{
+color: white;
+background-color: black;
+}
+p:hover{
+color: white;
+background-color: black;
+}
+
+
+
+
+
